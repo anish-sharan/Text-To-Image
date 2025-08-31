@@ -1,0 +1,53 @@
+# 🎨 Text-to-Image Generator (Stable Diffusion + React + FastAPI)
+
+This project is a **full-stack Text-to-Image Generator** built with:
+
+- 🖼️ **Stable Diffusion** (via Hugging Face `diffusers`)  
+- ⚡ **FastAPI** backend with **ngrok** tunneling  
+- 💻 **React + Tailwind** frontend  
+
+It allows users to enter a text **prompt** and generate an AI image in real-time.
+
+---
+
+## 🚀 Features
+
+- Generate high-quality AI images from text prompts  
+- View generated images in history  
+- Regenerate previously generated images  
+- Customize image **style, quality, and dimensions**  
+- Backend served via **FastAPI** + **ngrok**  
+- Frontend built with **React + Tailwind CSS**  
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+- [FastAPI](https://fastapi.tiangolo.com/)  
+- [diffusers](https://huggingface.co/docs/diffusers/index)  
+- [PyTorch](https://pytorch.org/)  
+- [ngrok](https://ngrok.com/)  
+
+### Frontend
+- [React](https://react.dev/)  
+- [TailwindCSS](https://tailwindcss.com/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+
+---
+
+## 📂 Project Structure
+
+```
+text-to-image/
+├── backend/
+│   ├── running steps in colab for cuda gpu
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.tsx
+│   └── vite.config.ts
+├── README.md
+└── requirements.txt
+```
