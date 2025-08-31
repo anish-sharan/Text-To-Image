@@ -51,3 +51,11 @@ text-to-image/
 ├── README.md
 └── requirements.txt
 ```
+
+## Screenshot
+
+<p align="center">
+  <img src="https://github.com/anish-sharan/Text-To-Image/blob/main/frontend/workings/Screenshot%202025-08-30%20at%203.51.19%E2%80%AFPM.png" alt="App Screenshot" width="600">
+</p>
+
+
